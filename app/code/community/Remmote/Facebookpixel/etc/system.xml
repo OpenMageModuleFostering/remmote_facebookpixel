@@ -70,9 +70,9 @@
                     <show_in_website>1</show_in_website>
                     <show_in_store>1</show_in_store>
                     <comment><![CDATA[
-                    <div style="background-color: #FDFAB1; padding: 10px 0px;">
+                    <div style="padding: 10px 0px; border-bottom: 1px solid #d6d6d6; margin-bottom: 12px;">
                         <span style="font-size: 13px;">
-                            Are you planning to run Facebook Dynamic Ads or want to export your product catalog to Facebook? Check out our extension <a style="color:#ea7601; font-weight:bold;" href="https://www.magentocommerce.com/magento-connect/facebook-pixel-for-remarketing.html" target="_blank">Facebook Pixel for Remarketing </a> and get <strong>50%</strong> discount using the coupon <strong>FACEBOOKPIXEL</strong>. Make sure to uninstall this extension if you get the our PRO version. 
+                            Do you want to export your product catalog to Facebook and run Dyamic Ads? Check out our extension <a style="color:#ea7601; font-weight:bold;" href="https://www.magentocommerce.com/magento-connect/facebook-pixel-for-remarketing.html" target="_blank">Facebook Pixel for Remarketing </a> and get <strong>20%</strong> discount using the coupon <strong>FACEBOOKPIXEL</strong>. Make sure to uninstall this extension if you get our upgraded extension. 
                         </span>
                     </div>
                     ]]>

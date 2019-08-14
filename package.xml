@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Remmote_Facebookpixel</name>
-    <version>1.0.4</version>
+    <version>1.0.5</version>
     <stability>stable</stability>
     <license>GPL</license>
     <channel>community</channel>
@@ -9,12 +9,12 @@
     <summary>Install Facebook Pixel Standard Events for Magento. Extension tracks standard events accurately using Magento Observers.</summary>
     <description>This extension install Facebook Pixel in Magento stores. All the events are tracked using Magento observers which makes the tracking more accurate than the rest of extensions.</description>
     <notes>Release notes:&#xD;
-- Including support for OneStepCheckout&#xD;
+- Upgrading installation instructions&#xD;
 </notes>
     <authors><author><name>Remmote</name><user>remmote</user><email>info@remmote.com</email></author></authors>
-    <date>2017-05-11</date>
-    <time>02:26:16</time>
-    <contents><target name="mageetc"><dir name="modules"><file name="Remmote_Facebookpixel.xml" hash="43d40e05033b4ead5b8f65ae873bbcb1"/></dir></target><target name="magecommunity"><dir name="Remmote"><dir name="Facebookpixel"><dir name="Block"><dir name="Adminhtml"><dir name="System"><dir name="Config"><dir name="Fieldset"><file name="Info.php" hash="37df708d08f3a09132e0569d97e4d517"/></dir></dir></dir></dir><file name="Code.php" hash="ce6a2e4fe5d0fe100397c36a4da0aba5"/></dir><dir name="Helper"><file name="Data.php" hash="85833786113519a5a092caeab984ccf6"/></dir><dir name="Model"><file name="Observer.php" hash="07e1686bf545a717bdd8bb6100011ce9"/></dir><dir name="etc"><file name="config.xml" hash="b3eaf1bb5c6b63d04aea86fa150b78f8"/><file name="system.xml" hash="8182eae3a1dca6be82c829f369573fe8"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="remmote_facebookpixel.xml" hash="d87afaed251f9545c9dc5213ac6533d9"/></dir><dir name="template"><dir name="remmote"><dir name="facebookpixel"><file name="code.phtml" hash="c16db6bf81bbaff7c9dc7f1879c77fe4"/></dir></dir></dir></dir></dir></dir><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="remmote"><dir name="facebookpixel"><dir name="system"><dir name="config"><dir name="fieldset"><file name="info.phtml" hash="06fdec7d58d7e33a18214d524794174a"/></dir></dir></dir></dir></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="remmote"><dir name="facebookpixel"><file name="logo-remmote.png" hash="d63b1e27519990f4de0628902353a186"/></dir></dir></dir></dir></dir></target></contents>
+    <date>2017-06-09</date>
+    <time>05:18:09</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="Remmote_Facebookpixel.xml" hash="43d40e05033b4ead5b8f65ae873bbcb1"/></dir></target><target name="magecommunity"><dir name="Remmote"><dir name="Facebookpixel"><dir name="Block"><dir name="Adminhtml"><dir name="System"><dir name="Config"><dir name="Fieldset"><file name="Info.php" hash="37df708d08f3a09132e0569d97e4d517"/></dir></dir></dir></dir><file name="Code.php" hash="ce6a2e4fe5d0fe100397c36a4da0aba5"/></dir><dir name="Helper"><file name="Data.php" hash="85833786113519a5a092caeab984ccf6"/></dir><dir name="Model"><file name="Observer.php" hash="07e1686bf545a717bdd8bb6100011ce9"/></dir><dir name="etc"><file name="config.xml" hash="7382a438eeb7a3fbd602f996d3ca7d53"/><file name="system.xml" hash="6f87d614d7e81fe201a4bfeaccfdcc97"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="remmote_facebookpixel.xml" hash="d87afaed251f9545c9dc5213ac6533d9"/></dir><dir name="template"><dir name="remmote"><dir name="facebookpixel"><file name="code.phtml" hash="c16db6bf81bbaff7c9dc7f1879c77fe4"/></dir></dir></dir></dir></dir></dir><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="remmote"><dir name="facebookpixel"><dir name="system"><dir name="config"><dir name="fieldset"><file name="info.phtml" hash="06fdec7d58d7e33a18214d524794174a"/></dir></dir></dir></dir></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="remmote"><dir name="facebookpixel"><file name="logo-remmote.png" hash="d63b1e27519990f4de0628902353a186"/></dir></dir></dir></dir></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.3.0</min><max>7.0.0</max></php></required></dependencies>
 </package>
