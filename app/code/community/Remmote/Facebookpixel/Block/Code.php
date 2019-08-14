@@ -179,6 +179,15 @@ class Remmote_Facebookpixel_Block_Code extends Mage_Core_Block_Template {
         
             $pixelEvent = Mage::getModel('core/session')->getPixelPurchase();
             if($pixelEvent){
+                // Mage::log('RemmotePixel - pageSection: '. $pageSection);
+
+                // Check if standard checkout...
+                if(Mage::helper('remmote_facebookpixel')->onestepcheckoutEnabled()){ //One Step Checkout
+                    if($pageSection != 'checkout_onepage_success'){
+                        return;
+                    }
+                }
+
                 //Unset event
                 Mage::getModel('core/session')->unsPixelPurchase();
 

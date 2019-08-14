@@ -20,6 +20,9 @@ class Remmote_Facebookpixel_Helper_Data extends Mage_Core_Helper_Abstract
     const PURCHASE                  = 'remmote_facebookpixel/events/purchase';
     const LEAD                      = 'remmote_facebookpixel/events/lead';
     const COMPLETE_REGISTRATION     = 'remmote_facebookpixel/events/complete_registration';
+
+    //Third party checkout extensions
+    const ONESTEPCHECKOUT_ENABLED   = 'onestepcheckout/general/rewrite_checkout_links';
     
     /**
      * Check if module is enabled and Pixel ID is set
@@ -118,6 +121,17 @@ class Remmote_Facebookpixel_Helper_Data extends Mage_Core_Helper_Abstract
      */
     public function purchaseEnabled($store = null){
         return Mage::getStoreConfig(self::PURCHASE, $store);
+    }
+
+    /**
+     * Check if OneStepCheckout is enabled in the store
+     * @param  [type]     $store
+     * @return [type]
+     * @author edudeleon
+     * @date   2017-05-10
+     */
+    public function onestepcheckoutEnabled($store = null) {
+        return Mage::getStoreConfig(self::ONESTEPCHECKOUT_ENABLED, $store);
     }
 
     /**
