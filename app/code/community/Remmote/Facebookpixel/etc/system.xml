@@ -36,7 +36,7 @@
                     <show_in_default>1</show_in_default>
                     <show_in_website>1</show_in_website>
                     <show_in_store>1</show_in_store>
-                    <comment><![CDATA[This extension will install Facebook Pixel in your Magento store. Test in real time using the Google Chrome extension: <a href="https://chrome.google.com/webstore/detail/facebook-pixel-helper/fdgfkebogiimcoedlicjlajpkdmockpc" target="_blank">Facebook Pixel Helper</a>]]>
+                    <comment><![CDATA[Enable the extension and configure your Facebook Pixel code in this section. Test in real time using the Google Chrome extension: <a href="https://chrome.google.com/webstore/detail/facebook-pixel-helper/fdgfkebogiimcoedlicjlajpkdmockpc" target="_blank">Facebook Pixel Helper</a>]]>
                     </comment>
                     <fields>
                         <enabled translate="label">
@@ -69,8 +69,13 @@
                     <show_in_default>1</show_in_default>
                     <show_in_website>1</show_in_website>
                     <show_in_store>1</show_in_store>
-                    <comment><![CDATA[You can choose to enable standard events separately. Find more information about Facebook Standard Events <a href="https://web.facebook.com/business/help/952192354843755" target="_blank">here</a> 
-                    <br/> If you are running Facebook Dynamic Ads, you might find useful our extension <a href="https://www.magentocommerce.com/magento-connect/facebook-product-catalogs.html" target="_blank">Facebook Product Catalogs </a> that helps you to export your products to Facebook.]]>
+                    <comment><![CDATA[
+                    <div style="background-color: white; color:#ea7601; padding: 10px 0px;">
+                        <span style="font-size: 13px;">
+                            Are you planning to run Facebook Dynamic Ads or want to export your product catalog to Facebook? Check out our extension <a style="color:#ea7601; font-weight:bold;" href="https://www.magentocommerce.com/magento-connect/facebook-pixel-for-remarketing.html" target="_blank">Facebook Pixel for Remarketing </a> and get <strong>20%</strong> discount using the coupon <strong>FACEBOOKPIXEL</strong>. Make sure to uninstall this extension if you get the our PRO version. 
+                        </span>
+                    </div>
+                    ]]>
                     </comment>
                     <fields>
                         <view_content translate="label">
