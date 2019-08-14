@@ -1,0 +1,124 @@
+<?xml version="1.0" ?>
+<!--
+/**
+ * @extension   Remmote_Facebookpixel
+ * @author      Remmote    
+ * @copyright   2016 - Remmote.com
+ * @descripion  Module config
+ */
+-->
+<config>
+    <modules>
+        <Remmote_Facebookpixel>
+            <version>1.0.0</version>
+        </Remmote_Facebookpixel>
+    </modules>
+
+    <frontend>
+        <layout>
+            <updates>
+                <remmote_facebookpixel>
+                    <file>remmote_facebookpixel.xml</file>
+                </remmote_facebookpixel>
+            </updates>
+        </layout>
+
+        <events>
+            <checkout_cart_product_add_after>
+                <observers>
+                    <remmote_facebookpixel_logpixeladdtocart>
+                        <class>remmote_facebookpixel/observer</class>
+                        <method>logPixelAddToCart</method>
+                    </remmote_facebookpixel_logpixeladdtocart>
+                </observers>
+            </checkout_cart_product_add_after>
+
+            <wishlist_add_product>
+                <observers>
+                    <remmote_facebookpixel_logpixeladdtowishlist>
+                        <class>remmote_facebookpixel/observer</class>
+                        <method>logPixelAddToWishlist</method>
+                    </remmote_facebookpixel_logpixeladdtowishlist>
+                </observers>
+            </wishlist_add_product>
+
+            <sales_quote_payment_import_data_before>
+                <observers>
+                    <remmote_facebookpixel_logpixelpaymentinfo>
+                        <class>remmote_facebookpixel/observer</class>
+                        <method>logPixelPaymentInfo</method>
+                    </remmote_facebookpixel_logpixelpaymentinfo>
+                </observers>
+            </sales_quote_payment_import_data_before>
+
+            <sales_order_place_after>
+                <observers>
+                    <remmote_facebookpixel_logpixelpurchase>
+                        <class>remmote_facebookpixel/observer</class>
+                        <method>logPixelPurchase</method>
+                    </remmote_facebookpixel_logpixelpurchase>
+                </observers>
+            </sales_order_place_after>
+
+            <newsletter_subscriber_save_before>
+                <observers>
+                    <remmote_facebookpixel_logpixelcompleteregistrationnewsletter>
+                        <class>remmote_facebookpixel/observer</class>
+                        <method>logPixelCompleteRegistrationNewsletter</method>
+                    </remmote_facebookpixel_logpixelcompleteregistrationnewsletter>
+                </observers>
+            </newsletter_subscriber_save_before>
+
+            <customer_register_success>
+                <observers>
+                    <remmote_facebookpixel_logpixelcompleteregistration>
+                        <class>remmote_facebookpixel/observer</class>
+                        <method>logPixelCompleteRegistration</method>
+                    </remmote_facebookpixel_logpixelcompleteregistration>
+                </observers>
+            </customer_register_success>
+
+        </events>
+    </frontend> 
+
+    <global>
+        <helpers>
+            <remmote_facebookpixel>
+                <class>Remmote_Facebookpixel_Helper</class>
+            </remmote_facebookpixel>
+        </helpers>
+        <models>
+            <remmote_facebookpixel>
+                <class>Remmote_Facebookpixel_Model</class>
+            </remmote_facebookpixel>
+        </models>
+        <blocks>
+            <remmote_facebookpixel>
+                <class>Remmote_Facebookpixel_Block</class>
+            </remmote_facebookpixel>
+        </blocks>
+    </global>
+
+    <!-- Admin panel sections -->
+    <adminhtml>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <remmote_facebookpixel>
+                                            <title>Facebook Pixel Extension</title>
+                                        </remmote_facebookpixel>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+</config>

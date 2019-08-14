@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @extension   Remmote_Facebookpixel
+ * @author      Remmote    
+ * @copyright   2016 - Remmote.com
+ * @descripion  Layout file
+ */
+-->
+<layout version="1.0.0">
+	<default>
+		<reference name="head">
+        	<block type="remmote_facebookpixel/code" name="remmote_facebookpixel" as="remmote_facebookpixel" template="remmote/facebookpixel/code.phtml"/>
+     	</reference>
+	</default>
+</layout>

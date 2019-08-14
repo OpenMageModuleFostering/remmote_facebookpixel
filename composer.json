@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Remmote_Facebookpixel",
+    "type": "magento-module",
+    "license": "GPL",
+    "homepage": "",
+    "description": "Install Facebook Pixel in Magento. Extension tracks standard events accurately using Magento events.",
+    "authors": [
+    {
+        "name": "Remmote",
+        "email": "info@remmote.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
