@@ -24,6 +24,11 @@
             <show_in_website>1</show_in_website>
             <show_in_store>1</show_in_store>
             <groups>
+                <info>
+                    <frontend_model>Remmote_Facebookpixel_Block_Adminhtml_System_Config_Fieldset_Info</frontend_model>
+                    <sort_order>0</sort_order>
+                    <show_in_default>1</show_in_default>
+                </info>
                 <general translate="label">
                     <label>General Configuration</label>
                     <frontend_type>text</frontend_type>
@@ -64,7 +69,8 @@
                     <show_in_default>1</show_in_default>
                     <show_in_website>1</show_in_website>
                     <show_in_store>1</show_in_store>
-                    <comment><![CDATA[You can choose to enable standard events separately. Find more information about Facebook Standard Events <a href="https://web.facebook.com/business/help/952192354843755" target="_blank">here</a> <br/> If you have any question or need a custom extension development, just drop us a message in <a href="http://www.remmote.com/contact-us/" target="_blank">Remmote.com </a> ]]>
+                    <comment><![CDATA[You can choose to enable standard events separately. Find more information about Facebook Standard Events <a href="https://web.facebook.com/business/help/952192354843755" target="_blank">here</a> 
+                    <br/> If you are running Facebook Dynamic Ads, you might find useful our extension <a href="https://www.magentocommerce.com/magento-connect/facebook-product-catalogs.html" target="_blank">Facebook Product Catalogs </a> that helps you to export your products to Facebook.]]>
                     </comment>
                     <fields>
                         <view_content translate="label">

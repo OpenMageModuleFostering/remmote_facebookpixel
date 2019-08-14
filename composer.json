@@ -3,7 +3,7 @@
     "type": "magento-module",
     "license": "GPL",
     "homepage": "",
-    "description": "Install Facebook Pixel in Magento. Extension tracks standard events accurately using Magento events.",
+    "description": "Install Facebook Pixel Standard Events for Magento. Extension tracks standard events accurately using Magento Observers.",
     "authors": [
     {
         "name": "Remmote",
