@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Remmote_Facebookpixel",
+    "name": "OpenMageModuleFostering\/Remmote_Facebookpixel",
     "type": "magento-module",
     "license": "GPL",
     "homepage": "",
     "description": "Install Facebook Pixel Standard Events for Magento. Extension tracks standard events accurately using Magento Observers.",
     "authors": [
-    {
-        "name": "Remmote",
-        "email": "info@remmote.com"
-    }
-],
+        {
+            "name": "Remmote",
+            "email": "info@remmote.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
